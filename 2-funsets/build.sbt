@@ -1,5 +1,5 @@
-course := "progfun1"
-assignment := "recfun"
+course := "progfun"
+assignment := "funsets"
 
 scalaVersion := "2.13.5"
 

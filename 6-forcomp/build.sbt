@@ -1,5 +1,5 @@
-course := "progfun1"
-assignment := "patmat"
+course := "progfun"
+assignment := "forcomp"
 
 scalaVersion := "2.13.5"
 

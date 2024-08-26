@@ -1,11 +1,20 @@
 package recfun
 
 /**
+ * 1. Recursion
  * https://www.coursera.org/learn/scala-functional-programming/programming/DV6Vv/recursion
  */
 object RecFun extends RecFunInterface {
 
-  def main(args: Array[String]): Unit = ???
+  def main(args: Array[String]): Unit = {
+    println("Pascal's Triangle")
+    for (row <- 0 to 10) {
+      for (col <- 0 to row) {
+        print(s"${pascal(col, row)} ")
+      }
+      println()
+    }
+  }
 
   /**
    * Exercise 1
@@ -21,4 +30,5 @@ object RecFun extends RecFunInterface {
    * Exercise 3
    */
   def countChange(money: Int, coins: List[Int]): Int = ???
+
 }
